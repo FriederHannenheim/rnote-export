@@ -1,0 +1,12 @@
+[package]
+name = "rnote-export"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#rnote-engine = { path = "../rnote-engine", version="0.1"}
+gtk4 = { version = "0.4.6", features = ["v4_4"]}
+futures = "0.3"
+rnote-engine = { git = "https://github.com/flxzt/rnote.git" }

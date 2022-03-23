@@ -1,0 +1,2 @@
+# Rnote Export
+This is a small rust program to convert Rnote files to Xournalpp files on the command line.
