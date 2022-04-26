@@ -9,4 +9,6 @@ edition = "2021"
 #rnote-engine = { path = "../rnote-engine", version="0.1"}
 gtk4 = { version = "0.4.6", features = ["v4_4"]}
 futures = "0.3"
-rnote-engine = { git = "https://github.com/flxzt/rnote.git" }
+#rnote-engine = { git = "https://github.com/flxzt/rnote.git" }
+rnote-engine = { path = "../rnote/rnote-engine" }
+nalgebra = { version = "0.30.1", features = ["serde-serialize"] }
